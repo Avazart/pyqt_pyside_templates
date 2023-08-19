@@ -1,7 +1,5 @@
-from PyQt5 import uic
-# from PyQt5.QtWidgets import QMainWindow
-
-(Ui_MainWindow, QMainWindow) = uic.loadUiType('main_window.ui')
+from PySide6.QtWidgets import QMainWindow
+from ui_main_window import Ui_MainWindow
 
 
 class MainWindow(QMainWindow):
